@@ -1,0 +1,7 @@
+## Interface: 40400
+## Version: 1.0.0
+## Title: StatusBar
+## Notes: Shows FPS, Latency, Durability and Mov. Speed. at bottom left.
+## Author: Resist
+
+Init.lua
