@@ -63,9 +63,9 @@ f:SetScript("OnEvent", function()
     durabilityText:SetText("|c00ffffff" .. string.format("%d", currentSum / maximumSum * 100) .. "%|r durability")
   end
 
-  local f = CreateFrame("Frame")
-  f:RegisterEvent("UPDATE_INVENTORY_DURABILITY")
-  f:SetScript("OnEvent", updateDurability)
+  local fd = CreateFrame("Frame")
+  fd:RegisterEvent("UPDATE_INVENTORY_DURABILITY")
+  fd:SetScript("OnEvent", updateDurability)
   updateDurability()
 
   -- Mov. speed
