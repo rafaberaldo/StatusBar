@@ -3,7 +3,7 @@ f:RegisterEvent("PLAYER_LOGIN")
 f:SetScript("OnEvent", function()
   local _, class = UnitClass("player")
   local classColor = RAID_CLASS_COLORS[class]
-  local fontSize = 14
+  local fontSize = 12
   local font = "Fonts\\FRIZQT__.TTF"
 
   local function createText(relativeTo)
